@@ -109,7 +109,7 @@ nav li a,
     flex: 0 0 100%;
     align-items: center;
     transition: var(--transition);
-    -webkit-transform: var(--transition);
+    -webkit-transition: var(--transition);
 }
 
 nav li :is(a:hover, .active) {
@@ -187,15 +187,6 @@ nav li.collapse ion-icon:last-child {
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
 }
-
-
-
-
-
-
-
-
-
 
 .sign-out {
     display: flex;
